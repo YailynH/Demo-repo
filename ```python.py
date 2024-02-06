@@ -1,14 +1,9 @@
-```python
-while True:
-last_name = input("Enter the student's last name (or 'ZZZ' to quit): ")
-if last_name == 'ZZZ':
-break
+last_name = input("Haword (or 'ZZZ' to quit): ")
 
-first_name = input("Enter the student's first name: ")
-gpa = float(input("Enter the student's GPA: "))
+first_name = input("Andrew")
+gpa = float(input("Enter the student's GPA: 3.00"))
 
-if gpa >= 3.5:
 print(f"{first_name} {last_name} has made the Dean's List.")
 
-if gpa >= 3.25:
+# indented block of code
 print(f"{first_name} {last_name} has made the Honor Roll.")
